@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: User should be able to book a one Way ticket" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-11-06T09:23:58" hostname="Purushothams-MacBook-Pro.local" time="7.733">
+  <properties/>
+  <testcase name="Given User is on Landing Page" classname="Scenario: User should be able to book a one Way ticket" time="0.0"/>
+  <testcase name="When User chooses to travel by flight" classname="Scenario: User should be able to book a one Way ticket" time="0.0"/>
+  <testcase name="And user enters journey details" classname="Scenario: User should be able to book a one Way ticket" time="0.0"/>
+  <testcase name="Then user searches for flights" classname="Scenario: User should be able to book a one Way ticket" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: User should be able to book a one Way ticket" time="17.954"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.33.506106 (8a06c39c4582fbfbab6966dbb1c38a9173bfb1a2) on port 25218
+Only local connections are allowed.
+Nov 06, 2017 2:53:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

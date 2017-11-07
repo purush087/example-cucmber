@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1251506592,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StartingSteps.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "User should be able to book a one Way ticket",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-book-a-flight;user-should-be-able-to-book-a-one-way-ticket",
+        "after": [
+          {
+            "result": {
+              "duration": 74913996,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StartingSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8958489589,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on Landing Page",
+            "match": {
+              "location": "StartingSteps.user_is_on_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 608859977,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User chooses to travel by flight",
+            "match": {
+              "location": "HomeTest.user_chooses_to_travel_by_flight()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6916463046,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters journey details",
+            "match": {
+              "location": "FlightBookingTest.user_enters_journey_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127725866,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user searches for flights",
+            "match": {
+              "location": "FlightBookingTest.user_searches_for_flights()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a User I should be able to book a flight",
+    "description": "",
+    "id": "as-a-user-i-should-be-able-to-book-a-flight",
+    "keyword": "Feature",
+    "uri": "HomePage.feature"
+  }
+]
