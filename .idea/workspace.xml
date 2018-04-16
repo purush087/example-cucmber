@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5d07b3c-3af9-4959-a780-99a0d426ef70" name="Default" comment="" />
+    <list default="true" id="e42b3a0b-02a4-4caf-92b2-a5d05cf54708" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/testvagrant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/expedia.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/expedia/pages/BasePage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/expedia/pages/HotelBookingPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/expedia/steps/BaseSteps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/expedia/steps/HotelBooking.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/expedia/pageObjects/FlightBookingPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/expedia/pageObjects/HomePage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/expedia/pageObjects/SearchResultsPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/expedia/step_definitions/DriverFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/expedia/step_definitions/FlightBookingTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/expedia/step_definitions/HomeTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/expedia/step_definitions/StartingSteps.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/util/WaitFor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/classes/util/WaitFor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/util/WaitFor.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/expedia/pageObjects/FlightBookingPage.java" afterPath="$PROJECT_DIR$/src/test/java/expedia/pages/FlightBookingPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/expedia/pageObjects/HomePage.java" afterPath="$PROJECT_DIR$/src/test/java/expedia/pages/HomePage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/expedia/pageObjects/SearchResultsPage.java" afterPath="$PROJECT_DIR$/src/test/java/expedia/pages/SearchResultsPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/expedia/step_definitions/DriverFactory.java" afterPath="$PROJECT_DIR$/src/test/java/expedia/steps/DriverFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/expedia/step_definitions/FlightBookingTest.java" afterPath="$PROJECT_DIR$/src/test/java/expedia/steps/FlightBookingTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/expedia/step_definitions/HomeTest.java" afterPath="$PROJECT_DIR$/src/test/java/expedia/steps/HomeTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/expedia/step_definitions/StartingSteps.java" afterPath="$PROJECT_DIR$/src/test/java/expedia/steps/StartingSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.2.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.2.1/fileHashes/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.2.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.2.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/chromedriver" afterPath="$PROJECT_DIR$/lib/chromedriver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/features/HomePage.feature" afterPath="$PROJECT_DIR$/src/test/java/features/HomePage.feature" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,24 +61,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="expedia" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="expedia" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="expedia" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="expedia" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -54,129 +70,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="HomePage.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/features/HomePage.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-183">
-              <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DriverFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/expedia/step_definitions/DriverFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlightBookingPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/expedia/pageObjects/FlightBookingPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="59" column="94" lean-forward="false" selection-start-line="59" selection-start-column="94" selection-end-line="59" selection-end-column="94" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1344#1345#0" expanded="true" />
-                <element signature="e#1389#1390#0" expanded="true" />
-                <element signature="e#1449#1450#0" expanded="true" />
-                <element signature="e#1502#1503#0" expanded="true" />
-                <element signature="e#1795#1796#0" expanded="true" />
-                <element signature="e#1832#1833#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WaitFor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/util/WaitFor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="135">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchResultsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/expedia/pageObjects/SearchResultsPage.java">
+      <file leaf-file-name="HotelBooking.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/expedia/steps/HotelBooking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/expedia/step_definitions/HomeTest.java">
+      <file leaf-file-name="HotelBookingPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/expedia/pages/HotelBookingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="29">
+              <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlightBookingTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/expedia/step_definitions/FlightBookingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MyRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1374#1375#0" expanded="true" />
+                <element signature="e#1423#1424#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="StartingSteps.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/expedia/step_definitions/StartingSteps.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/expedia/steps/StartingSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/expedia/pages/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/HomePage.feature">
+      <file leaf-file-name="FlightBookingPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/expedia/pages/FlightBookingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="-78">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -187,10 +141,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>new FlightBookingPage(driver)</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>flightBookingPage</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -373,8 +334,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4529847285000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2301104607" />
+        <entry key="$PROJECT_DIR$" value="4570810356000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -396,78 +356,78 @@
               <option name="name" value="expedia" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/ant-1.9.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/ant-launcher-1.9.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-base-services-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-base-services-groovy-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-build-cache-4.2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-cli-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-core-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-core-api-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-docs-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-installation-beacon-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-jvm-services-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-kotlin-dsl-0.11.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-kotlin-dsl-tooling-builders-0.11.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-kotlin-dsl-tooling-models-0.11.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-launcher-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-logging-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-messaging-4.2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-model-core-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-model-groovy-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-native-4.2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-persistent-cache-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-process-services-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-resources-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-runtime-api-info-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-tooling-api-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-wrapper-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-core-api-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-base-services-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/ant-1.9.6.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/groovy-all-2.4.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-announce-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-antlr-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-build-cache-http-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-build-comparison-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-build-init-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-code-quality-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-composite-builds-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-dependency-management-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-diagnostics-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-ear-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-resources-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-core-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-native-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-kotlin-dsl-0.11.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-jvm-services-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-base-services-groovy-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-launcher-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-installation-beacon-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-logging-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-runtime-api-info-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-kotlin-dsl-tooling-models-0.11.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-model-groovy-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-messaging-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-build-cache-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-wrapper-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-docs-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-tooling-api-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/gradle-process-services-4.2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-ide-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-ide-native-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-ide-play-4.2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-ivy-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-jacoco-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-javascript-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-language-groovy-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-language-java-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-language-jvm-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-language-native-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-language-scala-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-maven-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-osgi-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-platform-base-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-platform-jvm-4.2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-platform-native-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-platform-play-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-plugin-development-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-plugin-use-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-plugins-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-publish-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-reporting-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-resources-gcs-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-resources-http-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-resources-s3-4.2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-resources-sftp-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-language-java-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-platform-base-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-testing-native-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-reporting-4.2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-scala-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-resources-gcs-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-plugin-development-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-diagnostics-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-dependency-management-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-antlr-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-language-groovy-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-testing-base-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-build-cache-http-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-resources-http-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-testing-jvm-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-build-init-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-ear-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-ide-play-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-resources-s3-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-workers-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-jacoco-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-announce-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-language-jvm-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-plugin-use-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-javascript-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-ide-native-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-composite-builds-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-platform-jvm-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-osgi-4.2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-signing-4.2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-test-kit-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-testing-base-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-testing-jvm-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-testing-native-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-language-scala-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-plugins-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-build-comparison-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-publish-4.2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-tooling-api-builders-4.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-workers-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-language-native-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-platform-play-4.2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-maven-4.2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.2.1-bin/dajvke9o8kmaxbu0kc5gcgeju/gradle-4.2.1/lib/plugins/gradle-code-quality-4.2.1.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -484,27 +444,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/expedia/steps/pageObjects/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/expedia/steps/DriverFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/expedia/pageObjects/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/HomePage.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/expedia/pageObjects/SearchResultsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/expedia/pageObjects/FlightBookingPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/expedia/steps/StartingSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/expedia/step_definitions/StartingSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/expedia/step_definitions/HomeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/expedia/step_definitions/FlightBookingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/expedia/step_definitions/BaseSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/expedia/step_definitions/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/expedia/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/expedia/steps/HomeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/expedia/steps/FlightBookingTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/expedia/step_definitions/FlightBookingTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MyRunner.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/expedia/step_definitions/StartingSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/expedia/pages/FlightBookingPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/HomePage.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/expedia/steps/HotelBooking.java" />
+        <option value="$PROJECT_DIR$/src/test/java/expedia/pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/expedia/pages/HotelBookingPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/expedia/steps/StartingSteps.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -520,74 +477,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="expedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expedia" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="example-cucmber" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="expedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expedia" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expedia" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expedia" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expedia" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expedia" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expedia" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expedia" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="example-cucmber" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="expedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expedia" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="example-cucmber" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="expedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expedia" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="example-cucmber" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="expedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expedia" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="example-cucmber" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -595,16 +516,25 @@
             </path>
             <path>
               <item name="expedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expedia" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="example-cucmber" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="expedia" type="462c0819:PsiDirectoryNode" />
-              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="expedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expedia" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="example-cucmber" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="expedia" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="expedia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-cucmber" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -614,21 +544,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="expedia.pageObjects" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java" />
-      <recent name="$PROJECT_DIR$/lib" />
-    </key>
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="Base&#9;FILE&#9;file:///Users/testvagrant/Development/example-cucmber/src/test/java/expedia/pages/BasePage.java&#10;Bas&#9;FILE&#9;file:///Users/testvagrant/Development/example-cucmber/src/test/java/expedia/pages/BasePage.java&#10;ss&#9;FILE&#9;file:///Users/testvagrant/Development/example-cucmber/src/test/java/expedia/steps/StartingSteps.java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -642,8 +566,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyRunner">
-    <configuration name="Feature: HomePage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Scenario: User should be able to book hotel">
+    <configuration name="Scenario: User should be able to book a one Way ticket" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -651,12 +575,12 @@
         </pattern>
       </extension>
       <option name="myFilePath" value="$PROJECT_DIR$/src/test/java/features/HomePage.feature" />
-      <option name="GLUE" value="expedia.step_definitions" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="Feature: HomePage" />
+      <option name="GLUE" value="expedia.steps" />
+      <option name="myNameFilter" value="^User should be able to book a one Way ticket$" />
+      <option name="myGeneratedName" value="Scenario: User should be able to book a one Way ticket" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User should be able to book a one Way ticket$&quot;" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -666,25 +590,28 @@
       <module name="expedia_test" />
       <envs />
     </configuration>
-    <configuration name="MyRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="expedia_test" />
+    <configuration name="Scenario: User should be able to book hotel" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/java/features/HomePage.feature" />
+      <option name="GLUE" value="expedia.steps" />
+      <option name="myNameFilter" value="^User should be able to book hotel$" />
+      <option name="myGeneratedName" value="Scenario: User should be able to book hotel" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User should be able to book hotel$&quot;" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyRunner" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="expedia_test" />
       <envs />
-      <patterns />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
@@ -698,6 +625,24 @@
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" value="" />
+      <option name="GLUE" value="" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -767,13 +712,13 @@
       <listeners />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: HomePage" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MyRunner" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: User should be able to book a one Way ticket" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: User should be able to book hotel" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyRunner" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: HomePage" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: User should be able to book hotel" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: User should be able to book a one Way ticket" />
       </list>
     </recent_temporary>
   </component>
@@ -785,65 +730,65 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f5d07b3c-3af9-4959-a780-99a0d426ef70" name="Default" comment="" />
-      <created>1509943554511</created>
+      <changelist id="e42b3a0b-02a4-4caf-92b2-a5d05cf54708" name="Default" comment="" />
+      <created>1523603495245</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1509943554511</updated>
+      <updated>1523603495245</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__HomePage - 2017.11.06 at 12h 39m 49s.xml">
-      <configuration name="Feature: HomePage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_should_be_able_to_book_a_one_Way_ticket - 2018.04.16 at 14h 22m 49s.xml">
+      <configuration name="Scenario: User should be able to book a one Way ticket" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__HomePage - 2017.11.06 at 12h 40m 39s.xml">
-      <configuration name="Feature: HomePage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_should_be_able_to_book_a_one_Way_ticket - 2018.04.16 at 14h 24m 16s.xml">
+      <configuration name="Scenario: User should be able to book a one Way ticket" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__HomePage - 2017.11.06 at 14h 25m 47s.xml">
-      <configuration name="Feature: HomePage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_should_be_able_to_book_a_one_Way_ticket - 2018.04.16 at 14h 28m 12s.xml">
+      <configuration name="Scenario: User should be able to book a one Way ticket" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__HomePage - 2017.11.06 at 14h 26m 51s.xml">
-      <configuration name="Feature: HomePage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_should_be_able_to_book_a_one_Way_ticket - 2018.04.16 at 14h 28m 43s.xml">
+      <configuration name="Scenario: User should be able to book a one Way ticket" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__HomePage - 2017.11.06 at 14h 28m 00s.xml">
-      <configuration name="Feature: HomePage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_should_be_able_to_book_hotel - 2018.04.16 at 14h 42m 51s.xml">
+      <configuration name="Scenario: User should be able to book hotel" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__HomePage - 2017.11.06 at 14h 29m 32s.xml">
-      <configuration name="Feature: HomePage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_should_be_able_to_book_hotel - 2018.04.16 at 14h 43m 45s.xml">
+      <configuration name="Scenario: User should be able to book hotel" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__HomePage - 2017.11.06 at 14h 29m 55s.xml">
-      <configuration name="Feature: HomePage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_should_be_able_to_book_hotel - 2018.04.16 at 15h 12m 19s.xml">
+      <configuration name="Scenario: User should be able to book hotel" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="MyRunner - 2017.11.06 at 14h 49m 17s.xml">
-      <configuration name="MyRunner" configurationId="JUnit" />
+    <history-entry file="Scenario__User_should_be_able_to_book_hotel - 2018.04.16 at 15h 15m 03s.xml">
+      <configuration name="Scenario: User should be able to book hotel" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="MyRunner - 2017.11.06 at 14h 50m 27s.xml">
-      <configuration name="MyRunner" configurationId="JUnit" />
+    <history-entry file="Scenario__User_should_be_able_to_book_hotel - 2018.04.16 at 15h 18m 01s.xml">
+      <configuration name="Scenario: User should be able to book hotel" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="MyRunner - 2017.11.06 at 14h 51m 04s.xml">
-      <configuration name="MyRunner" configurationId="JUnit" />
+    <history-entry file="Scenario__User_should_be_able_to_book_hotel - 2018.04.16 at 15h 19m 31s.xml">
+      <configuration name="Scenario: User should be able to book hotel" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="734" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.49713877" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5028612" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5827922" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.49713877" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -854,6 +799,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -865,74 +811,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/pageObjects/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="-214">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/HomePage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/WaitFor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/pageObjects/FlightBookingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="59" column="94" lean-forward="false" selection-start-line="59" selection-start-column="94" selection-end-line="59" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1502#1503#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <element signature="e#1832#1833#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/pageObjects/SearchResultsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/step_definitions/HomeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/step_definitions/FlightBookingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -940,55 +824,202 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/MyRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/WaitFor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/steps/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/steps/BaseSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.7.0/74a46d0014b6110d4ff012cb1247fec72fc2768d/selenium-api-3.7.0-sources.jar!/org/openqa/selenium/WebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="67" column="7" lean-forward="false" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/pages/SearchResultsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/steps/HomeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/steps/FlightBookingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/pages/FlightBookingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/steps/HotelBooking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/HomePage.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/pages/HotelBookingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183">
-          <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        <state relative-caret-position="29">
+          <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/step_definitions/DriverFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/steps/StartingSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/expedia/step_definitions/StartingSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
